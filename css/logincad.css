@@ -2,7 +2,7 @@
     --font-family: helvetica;
     --font-size: 16px;
     --bg-color: rgb(0, 14, 36);
-    --bg-image: url("../assets/img/24789.jpg");
+    --bg-image: url("../assets/img/fundo.jpeg");
     --max-width: auto;
     --min-width: auto;
 }
@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial,sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -37,7 +38,8 @@ a {
 
 /* content que contem os formulários */
 .content {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin: 0px auto;
     position: relative;
 }
@@ -132,14 +134,13 @@ input {
     background: #e1eaeb;
     color: #7f7c7c;
     left: 0px;
-    height: 20px;
-    width: 440px;
-    padding: 17px 30px 20px 30px;
+    padding: 20px 10px;
     font-size: 16px;
-    text-align: right;
+    text-align: center;
     border-top: 1px solid #dbe5e8;
-    -webkit-border-radius: 0 0 5px 5px;
     border-radius: 0 0 5px 5px;
+    width: 100%;
+    display: flex;
 }
 
     .link a {

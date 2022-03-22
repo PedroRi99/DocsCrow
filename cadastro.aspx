@@ -10,10 +10,9 @@
   <link rel="stylesheet" type="text/css" href="css/logincad.css" />
 </head>
 <body>
-
+    <br /><br /><br /><br /><br /><br /><br />
   <div class="container" >     
     <div class="content">   
-    
       <!--FORMULÁRIO DE CADASTRO-->
       <div id="cadastro">
         <form id="form1" runat="server">

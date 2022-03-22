@@ -30,8 +30,8 @@
 
         <header>
             <div class="header">
-                <a href="home" title="Página incial"><img id="logo" src="assets/img/logo_64.png" alt="My.Docs.App Logo"></a>
-                <h1 id="siteName">My.Docs.App<!-- <asp:Label ID="ltrCookie" runat="server" ></asp:Label> --></h1>
+                <a href="index.aspx" title="Página incial"><img id="logo" src="assets/img/logo1.png" alt="DocCrow"></a>
+                <h1 id="siteName">DocCrow<!-- <asp:Label ID="ltrCookie" runat="server" ></asp:Label> --></h1>
                 <a href="#menu" id="menuToggle" title="Mostra menu" onclick="menuToggle(this)"><i class="fas fa-home fa-fw"></i></a>
             </div>
         </header>
@@ -48,10 +48,10 @@
                 <a href="UploadDeArquivo.aspx" title="Enviar novo documento">
                     <i class="fas fa-file-upload fa-fw"></i><span>Enviar</span>
                 </a>
-                <a href="contacts" title="Faça contato">
+                <a href="Contacts.aspx" title="Faça contato">
                     <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                 </a>
-                <a href="about" title="Sobre o App">
+                <a href="about.aspx" title="Sobre o App">
                     <i class="fas fa-info-circle fa-fw"></i><span>Sobre</span>
                 </a>
 
@@ -103,7 +103,7 @@
 
                 <div class="footer-top">
                     <a href="index.aspx" title="Página incial"><i class="fas fa-home fa-fw"></i></a>
-                    <div class="license"><i class="fab fa-creative-commons fa-fw"></i> 2021 André Luferat</div>
+                    <div class="license"><i class="fab fa-creative-commons fa-fw"></i> 2022 DocCrow</div>
                     <a href="#top" title="Topo da página"><i class="fas fa-arrow-alt-circle-up fa-fw"></i></a>
                 </div>
 
@@ -112,10 +112,10 @@
                     <div class="social"></div>
 
                     <div class="tools">
-                        <a href="about" title="Sobre o App">
+                        <a href="about.aspx" title="Sobre o App">
                             <i class="fas fa-info-circle fa-fw"></i><span>Sobre o app</span>
                         </a>
-                        <a href="aboutus" title="Sobre a gente">
+                        <a href="aboutus" title="Sobre nós">
                             <i class="fas fa-user-tie fa-fw"></i><span>Sobre a gente</span>
                         </a>
                         <a href="contacts" title="Faça contato">

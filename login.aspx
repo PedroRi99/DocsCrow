@@ -16,9 +16,12 @@
   <div class="container">
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
+      <br /><br /><br /><br /><br /><br /><br />
+
      
-    <div class="content">      
+    <div class="content">
       <!--FORMULÁRIO DE LOGIN-->
+       
       <div id="login">
         <form id="form1" runat="server">
           <h1>Login</h1> 
@@ -48,6 +51,10 @@
           </p>
         </form>
       </div>
+
+        </div>
+
+  </div>
   
 </body>
 </html>
