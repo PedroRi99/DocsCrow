@@ -4,6 +4,9 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+  <link rel="stylesheet" type="text/css" href="css/about.css" />
+    
+    
     <article>
     <h2>Sobre o app</h2>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sunt iure magnam, illo nemo dolores tenetur architecto pariatur corporis tempore, velit in cumque explicabo non impedit vero ducimus maxime perferendis!</p>
@@ -13,9 +16,11 @@
 <aside>
     <h3>+ Sobre</h3>
     <ul>
-        <li><a href="about">Sobre o App</a></li>
-        li
-        
+        <li><a href="https://github.com/PedroRi99">GitHub do Projeto</a></li>
+    </ul>
+    <h3>Contatos dos Desenvolvedores</h3>
+    <ul>
+        <li><i class="fa-brands fa-instagram-square"></i><a href="https://www.instagram.com/pedrori99/">Pedro Ricardo</a></li>
     </ul>
 </aside>
 
