@@ -1,10 +1,10 @@
 ﻿body {
+    background:green;
 }
 
-h2 {
-    font-size: 48px;
-    color: grey;
-    font-family: Arial,sans-serif;
-    text-align: center;
-    text-shadow: 2px 2px 20px black;
+article h1 {
+    color: green;
+    text-align:center;
+    font-size:48px;
+    text-shadow:2px 2px 20px black;
 }

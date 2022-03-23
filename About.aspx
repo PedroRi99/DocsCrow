@@ -4,11 +4,11 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <link rel="stylesheet" type="text/css" href="css/about.css" />
+  <link rel="stylesheet" href="css/about.css">
     
     
     <article>
-    <h2>Sobre o app</h2>
+    <h1>Sobre o app</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sunt iure magnam, illo nemo dolores tenetur architecto pariatur corporis tempore, velit in cumque explicabo non impedit vero ducimus maxime perferendis!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto labore, numquam, incidunt in quae quibusdam nostrum illum laboriosam distinctio repudiandae qui inventore doloremque! Facilis id unde harum ipsa non. Molestias.</p>
 </article>

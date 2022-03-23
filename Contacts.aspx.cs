@@ -39,6 +39,7 @@ namespace ProjetoFinal
             cmd.ExecuteNonQuery();
             con.Close();
             Response.Redirect("~/Contacts.aspx");
+
         }
     }
 }

@@ -27,13 +27,13 @@
           <h1>Login</h1> 
           <p> 
             <label for="tbEmail">Seu e-mail</label>            
-              <asp:TextBox ID="tbEmail" runat="server" placeholder="Digite seu E-mail"></asp:TextBox>
+              <asp:TextBox ID="tbEmail" runat="server" placeholder="Digite seu E-mail" TextMode="Email"></asp:TextBox>
           </p>
            
           <p> 
             <label for="tbSenha">Sua Senha</label>
             
-              <asp:TextBox ID="tbSenha" runat="server"></asp:TextBox><!-- TextMode="Password" -->
+              <asp:TextBox ID="tbSenha" runat="server" TextMode="Password"></asp:TextBox><!-- TextMode="Password" -->
           </p>
            
           <p> 

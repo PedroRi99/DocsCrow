@@ -1,9 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePage.Master" AutoEventWireup="true" CodeBehind="Contacts.aspx.cs" Inherits="ProjetoFinal.Contacts" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <link rel="stylesheet" href="css/Contacts.css" />
  <DOCTYPE html>
-    <html xmlns="http://www.w3.org/1999/xhtml">
+    <html>
         <script runat="server" lenguage="C#">
             void MyButton_OnClick(Object sender, EventArgs e)
             {
@@ -15,20 +17,20 @@
              
             }
         </script>
-
+        
         <body>
             <article>
-                <h1>Faça Contato</h1>
                 <form id="form1" runat="server">
+                <h1>Faça Contato</h1>
                     <p>Preencha os campos abaixo para entrar em contato com a equipe do aplicativo.</p>
                       <p>
                           Seu Nome: <asp:TextBox ID="FormNome" runat="server"></asp:TextBox>
                       </p>
                     <p>
-                         Seu Email: <asp:TextBox ID="FormEmail" runat="server"></asp:TextBox>
+                         Seu Email: <asp:TextBox ID="FormEmail" runat="server" TextMode="Email"></asp:TextBox>
                     </p>
                     <p>
-                        Assunto: <asp:TextBox ID="FormAssunto" runat="server"></asp:TextBox>
+                        Assunto:&nbsp;&nbsp; <asp:TextBox ID="FormAssunto" runat="server" BorderColor="Black"></asp:TextBox>
                     </p>
                     <p>
                         Mensagem: <asp:TextBox ID="FormMsg" runat="server"></asp:TextBox>

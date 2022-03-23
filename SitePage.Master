@@ -118,7 +118,7 @@
                         <a href="aboutus" title="Sobre nós">
                             <i class="fas fa-user-tie fa-fw"></i><span>Sobre a gente</span>
                         </a>
-                        <a href="contacts" title="Faça contato">
+                        <a href="Contacts.aspx" title="Faça contato">
                             <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                         </a>
                         <a href="privacity" title="Políticas de privacidade">
