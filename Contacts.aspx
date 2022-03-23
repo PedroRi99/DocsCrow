@@ -2,50 +2,44 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <article>
+ <DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <script runat="server" lenguage="C#">
+            void MyButton_OnClick(Object sender, EventArgs e)
+            {
+                string nome, email, assunto, mensagem;
+                nome = FormNome.Text;
+                email = FormEmail.Text;
+                assunto = FormAssunto.Text;
+                mensagem = FormMsg.Text;
+             
+            }
+        </script>
 
-    <h2>Faça contato</h2>
+        <body>
+            <article>
+                <h1>Faça Contato</h1>
+                <form id="form1" runat="server">
+                    <p>Preencha os campos abaixo para entrar em contato com a equipe do aplicativo.</p>
+                      <p>
+                          Seu Nome: <asp:TextBox ID="FormNome" runat="server"></asp:TextBox>
+                      </p>
+                    <p>
+                         Seu Email: <asp:TextBox ID="FormEmail" runat="server"></asp:TextBox>
+                    </p>
+                    <p>
+                        Assunto: <asp:TextBox ID="FormAssunto" runat="server"></asp:TextBox>
+                    </p>
+                    <p>
+                        Mensagem: <asp:TextBox ID="FormMsg" runat="server"></asp:TextBox>
+                    </p>
+                    <p>
+                        <asp:button ID="MyButton" Text="Enviar" OnClick="MyButton_Click" runat="server"></asp:button>
+                    </p>
+                </form>
+            </article>
 
-    <form action="#" id="contact" name="contact" method="post">
-
-        <p>Preencha os campos abaixo para entrar em contato com a equipe do aplicativo.</p>
-
-        <p class="red center small">Todos os campos são obrigatórios.</p>
-
-        <p>
-            <label for="contactName">Seu nome:</label>
-            <input type="text" name="contact-name" id="contactName" required minlength="3" class="field valid" value="">
-        </p>
-
-        <p>
-            <label for="contactEmail">Seu e-mail:</label>
-            <input type="email" name="contact-email" id="contactEmail" required class="field valid" value="">
-        </p>
-
-        <p>
-            <label for="contactSubject">Assunto:</label>
-            <input type="text" name="contact-subject" id="contactSubject" required minlength="3" class="field valid" value="">
-        </p>
-
-        <p>
-            <label for="contactMessage">Mensagem:</label>
-            <textarea name="contact-message" id="contactMessage" required minlength="5" class="field valid"></textarea>
-        </p>
-
-        <p>
-            <button type="submit" name="contact-send" id="contactSend">Enviar</button>
-            <span class="small">&larr; Clique somente uma vez.</span>
-        </p>
-
-    </form>
-
-    <div id="feedback"></div>
-
-</article>
-
-<aside class="contacts">
-    <h3>Mais contatos</h3>
-    <p>Conheça nossas redes sociais e outras formas de contato.</p>
-    <div class="contact-list"></div>
-</aside>
+        </body>
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+    </html>
 </asp:Content>
