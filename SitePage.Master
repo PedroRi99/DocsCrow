@@ -116,12 +116,12 @@
                             <i class="fas fa-info-circle fa-fw"></i><span>Sobre o app</span>
                         </a>
                         <a href="aboutus" title="Sobre nós">
-                            <i class="fas fa-user-tie fa-fw"></i><span>Sobre a gente</span>
+                            <i class="fas fa-user-tie fa-fw"></i><span>Sobre nós</span>
                         </a>
                         <a href="Contacts.aspx" title="Faça contato">
                             <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                         </a>
-                        <a href="privacity" title="Políticas de privacidade">
+                        <a href="privacidade.aspx" title="Políticas de privacidade">
                             <i class="fas fa-lock fa-fw"></i><span>Privacidade</span>
                         </a>
                     </div>

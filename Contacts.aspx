@@ -36,11 +36,12 @@
                         Mensagem: <asp:TextBox ID="FormMsg" runat="server"></asp:TextBox>
                     </p>
                     <p>
-                        <asp:button ID="MyButton" Text="Enviar" OnClick="MyButton_Click" runat="server"></asp:button>
+                    <asp:button CssClass="botao"  ID="MyButton" Text="Enviar" OnClick="MyButton_Click" runat="server"></asp:button> 
                     </p>
+                   
                 </form>
             </article>
-
+            
         </body>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     </html>
