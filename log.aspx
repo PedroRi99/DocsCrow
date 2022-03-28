@@ -101,9 +101,9 @@
                             <tr runat="server" style="">
                                 <th runat="server">tipo_log</th>
                                 <th runat="server">data</th>
-                                <th runat="server">titulo_documento</th>
-                                <th runat="server">id_usuario</th>
-                                <th runat="server">Id_log</th>
+                                <th runat="server">Titulo</th>
+                                <th runat="server">Usuário</th>
+                                <th runat="server">Id</th>
                             </tr>
                             <tr id="itemPlaceholder" runat="server">
                             </tr>

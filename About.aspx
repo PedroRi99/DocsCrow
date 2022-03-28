@@ -4,25 +4,28 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/About.css" />
     
     
-    <article>
+ <article>
     <h1>Sobre o app</h1>
         <hr />
-    <p><i class="fas fa-folder"></i>" teste sobre site</p>
-  
-</article>
+    <p><i class="fas fa-folder"></i> teste sobre site</p>
+        <hr />
+        <p><i class="fas fa-folder"></i>teste 2</p>
+   
+  </article>
 
-<aside>
+    <aside>
     <h3>+ Sobre</h3>
     <ul>
-        <li><a href="https://github.com/PedroRi99">GitHub do Projeto</a></li>
+      <p><i class="fab fa-github-square"></i> <a href="https://github.com/PedroRi99">GitHub do Projeto</a></p>
     </ul>
-    <h3>Contatos dos Desenvolvedores</h3>
+    <h3>Contato dos Desenvolvedores</h3>
     <ul>
-        <li><i class="fa-brands fa-instagram-square"></i><a href="https://www.instagram.com/pedrori99/">Pedro Ricardo</a></li>
+       <p><i class="fa-brands fa-instagram-square"></i><a href="https://www.instagram.com/pedrori99/" target="_blank">Pedro Ricardo</a></p>
+        <p><i class="fab fa-linkedin"></i><a href="https://br.linkedin.com/in/gabriel-amorim-08246117a?trk=people-guest_people_search-card" target="_blank"</a>Gabriel Dória</p>
     </ul>
-</aside>
+        </aside>
 
 </asp:Content>

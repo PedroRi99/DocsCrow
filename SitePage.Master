@@ -39,10 +39,11 @@
         <nav>
 
             <div id="mainMenu" class="nav menu-closed">
+             
                 <a href="index.aspx" title="Página incial">
                     <i class="fas fa-home fa-fw"></i><span>Início</span>
                 </a>
-                <a href="gerenciar.aspx" title="Gerenciar documentos">
+                <a href="upload.aspx" title="Gerenciar documentos">
                     <i class="fas fa-file-alt fa-fw"></i><span>Gerenciar</span>
                 </a>
                 <a href="UploadDeArquivo.aspx" title="Enviar novo documento">
@@ -51,7 +52,7 @@
                 <a href="Contacts.aspx" title="Faça contato">
                     <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                 </a>
-                <a href="about.aspx" title="Sobre o App">
+                <a href="WebForm1.aspx" title="Sobre o App">
                     <i class="fas fa-info-circle fa-fw"></i><span>Sobre</span>
                 </a>
 
@@ -124,6 +125,7 @@
                         <a href="privacidade.aspx" title="Políticas de privacidade">
                             <i class="fas fa-lock fa-fw"></i><span>Privacidade</span>
                         </a>
+
                     </div>
 
                 </div>

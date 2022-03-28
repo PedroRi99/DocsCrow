@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="css\Contacts.css" />
-    <Content Include="css\about.css" />
     <Content Include="App_Data\ProjetoFinalDB.mdf" />
     <Content Include="App_Data\ProjetoFinalDB_log.ldf">
       <DependentUpon>ProjetoFinalDB.mdf</DependentUpon>
@@ -85,6 +84,7 @@
     <Content Include="assets\img\fundo.jpeg" />
     <Content Include="cadastro.aspx" />
     <Content Include="Contacts.aspx" />
+    <Content Include="css\About.css" />
     <Content Include="css\global.css" />
     <Content Include="css\logincad.css" />
     <Content Include="gerenciar.aspx" />
@@ -101,6 +101,7 @@
     <Content Include="upload.aspx" />
     <Content Include="UploadDeArquivo.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="UploadDeArquivo.aspx.designer.cs">
       <DependentUpon>UploadDeArquivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
