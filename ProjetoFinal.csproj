@@ -87,6 +87,7 @@
     <Content Include="Contacts.aspx" />
     <Content Include="css\global.css" />
     <Content Include="css\logincad.css" />
+    <Content Include="gerenciar.aspx" />
     <Content Include="index.aspx" />
     <Content Include="js\global.js" />
     <Content Include="log.aspx" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="Contacts.aspx.designer.cs">
       <DependentUpon>Contacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gerenciar.aspx.cs">
+      <DependentUpon>gerenciar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gerenciar.aspx.designer.cs">
+      <DependentUpon>gerenciar.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

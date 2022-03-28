@@ -40,7 +40,6 @@ namespace ProjetoFinal
             con.Close();
 
             Response.Redirect("~/login.aspx");
-        
         }
     }
 }

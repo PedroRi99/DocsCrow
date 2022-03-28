@@ -1,5 +1,7 @@
 ﻿<%--<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cadastro.aspx.cs" Inherits="ProjetoFinal.cadastro" %>--%>
 
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cadastro.aspx.cs" Inherits="ProjetoFinal.cadastro" %>
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,9 +12,10 @@
   <link rel="stylesheet" type="text/css" href="css/logincad.css" />
 </head>
 <body>
-    <br /><br /><br /><br /><br /><br /><br />
+
   <div class="container" >     
     <div class="content">   
+    
       <!--FORMULÁRIO DE CADASTRO-->
       <div id="cadastro">
         <form id="form1" runat="server">

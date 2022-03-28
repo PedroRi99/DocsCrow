@@ -1,11 +1,12 @@
 ﻿
-body,h1 {
+h1 {
     
-    text-align:center;
+    text-align:end;
 }
 p{
-    padding:15px;
+   
+    text-align:justify;
 }
 h3{
-    padding:20px;
+ text-align:center;
 }

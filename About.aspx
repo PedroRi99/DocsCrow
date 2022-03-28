@@ -9,8 +9,9 @@
     
     <article>
     <h1>Sobre o app</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sunt iure magnam, illo nemo dolores tenetur architecto pariatur corporis tempore, velit in cumque explicabo non impedit vero ducimus maxime perferendis!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto labore, numquam, incidunt in quae quibusdam nostrum illum laboriosam distinctio repudiandae qui inventore doloremque! Facilis id unde harum ipsa non. Molestias.</p>
+        <hr />
+    <p><i class="fas fa-folder"></i>" teste sobre site</p>
+  
 </article>
 
 <aside>

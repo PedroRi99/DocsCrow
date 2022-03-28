@@ -42,7 +42,7 @@
                 <a href="index.aspx" title="Página incial">
                     <i class="fas fa-home fa-fw"></i><span>Início</span>
                 </a>
-                <a href="manager" title="Gerenciar documentos">
+                <a href="gerenciar.aspx" title="Gerenciar documentos">
                     <i class="fas fa-file-alt fa-fw"></i><span>Gerenciar</span>
                 </a>
                 <a href="UploadDeArquivo.aspx" title="Enviar novo documento">
