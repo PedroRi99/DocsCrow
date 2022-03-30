@@ -1,3 +1,27 @@
+
 body {
-    background:black;
+    background: black;
+}
+
+ article h1 {
+    -webkit-text-stroke: .4vh black;
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url('../assets/img/background_01.jpg');
+    background-clip: content-box;
+    -webkit-background-clip:content-box;
+    color: transparent;
+    animation: text 10s ease alternate infinite;
+}
+
+@keyframes text {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
 }

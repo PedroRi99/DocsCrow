@@ -6,7 +6,7 @@
      <link rel="stylesheet" href="css/Contacts.css" />
  <DOCTYPE html>
     <html>
-        <script runat="server" lenguage="C#">
+        <script runat="server" language="C#">
             void MyButton_OnClick(Object sender, EventArgs e)
             {
                 string nome, email, assunto, mensagem;

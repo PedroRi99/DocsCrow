@@ -8,6 +8,44 @@
       <title>Formulário de Login e Registro com HTML5 e CSS3</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
   <link rel="stylesheet" type="text/css" href="css/logincad.css" />
+       <style>
+    #aviso-cookie {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4682B4;
+    display: flex;
+    height:60px;
+    font-size:20px;
+    align-items:center;
+    border-radius: 5px;
+}
+
+    #aviso-cookie .text {
+        width: 87%;
+        margin-right: 3%;
+        color: #fff;
+        padding-left: 10px;
+    }
+
+    #aviso-cookie .button4 {
+        display: flex;
+        align-items: center;
+        padding-right: 10px;
+    }
+        </style>
+                   <script>
+
+                       let button = document.querySelector('#button')
+                       let divAviso = document.querySelector('.aviso-cookie')
+
+                       function button_onclick_Aceitar() {
+                           document.getElementById("aviso-cookie").style.display = "none";
+                           console.log('Estou Aqui');
+                       }
+
+                   </script>
 </head>
    
 <body>
@@ -24,7 +62,7 @@
        
       <div id="login">
         <form id="form1" runat="server">
-          <h1>Login</h1> 
+          <h1>Acesse sua conta</h1> 
           <p> 
             <label for="tbEmail">Seu e-mail</label>            
               <asp:TextBox ID="tbEmail" runat="server" placeholder="Digite seu E-mail" TextMode="Email"></asp:TextBox>
@@ -33,12 +71,12 @@
           <p> 
             <label for="tbSenha">Sua Senha</label>
             
-              <asp:TextBox ID="tbSenha" runat="server" TextMode="Password"></asp:TextBox><!-- TextMode="Password" -->
+              <asp:TextBox ID="tbSenha" runat="server" TextMode="Password" placeholder="Digite sua senha"></asp:TextBox><!-- TextMode="Password" -->
           </p>
            
           <p> 
 
-            <asp:CheckBox ID="preserveLogin" runat="server" Text=" Mantenha-me logado." value=" Manter-me logado"></asp:CheckBox>
+            <asp:CheckBox ID="preserveLogin" runat="server" Text=" Mantenha-me logado." value="Manter-me logado"></asp:CheckBox>
           </p>
            
           <p> 
@@ -46,10 +84,19 @@
           </p>
            
           <p class="link">
+             
             Ainda não tem conta?
             <a href="cadastro.aspx">Cadastre-se</a>
           </p>
         </form>
+           <div id="aviso-cookie">
+      <div class="text">
+         <p>Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. </p>
+      </div>
+      <div class="button">
+          <button id="Button4" onclick="button_onclick_Aceitar()">Aceitar </button>
+      </div>
+
       </div>
 
         </div>
