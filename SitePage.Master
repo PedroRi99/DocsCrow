@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/global.css">
     <style id="pageCSS"></style>
-    <link rel="shortcut icon" href="assets/img/logo_512.png" type="image/png">
+    <link rel="shortcut icon" href="assets/img/logo1.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
-    <title>DocsCrow</title>
+    <title>DocCrow</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
 
 
@@ -52,7 +52,7 @@
                 <a href="Contacts.aspx" title="Faça contato">
                     <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                 </a>
-                <a href="WebForm1.aspx" title="Sobre o App">
+                <a href="about.aspx" title="Sobre o App">
                     <i class="fas fa-info-circle fa-fw"></i><span>Sobre</span>
                 </a>
 
@@ -115,10 +115,7 @@
                     <div class="tools">
                         <a href="about.aspx" title="Sobre o App">
                             <i class="fas fa-info-circle fa-fw"></i><span>Sobre o app</span>
-                        </a>
-                        <a href="aboutus" title="Sobre nós">
-                            <i class="fas fa-user-tie fa-fw"></i><span>Sobre nós</span>
-                        </a>
+                       
                         <a href="Contacts.aspx" title="Faça contato">
                             <i class="fas fa-comments fa-fw"></i><span>Contatos</span>
                         </a>

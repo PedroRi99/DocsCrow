@@ -34,6 +34,31 @@
         align-items: center;
         padding-right: 10px;
     }
+    #button{
+     display:flex;
+     justify-content:center ;
+     place-items: center;
+     height:100vh;
+     background:#000;    
+}
+#Button4{
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border:none;
+    border-radius:1000px;
+    color:#4682B4;
+    transition:all 0.6s ease-in-out 0s;
+    box-shadow:inset 0 0 20px;
+}
+.Button4:hover{
+    color:#00ffcb;
+    
+    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+    cursor: grab;
+    border: 2px solid #00ffcb;
+}
         </style>
                    <script>
 
@@ -94,7 +119,7 @@
          <p>Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. </p>
       </div>
       <div class="button">
-          <button id="Button4" onclick="button_onclick_Aceitar()">Aceitar </button>
+          <button id="Button4" onclick="button_onclick_Aceitar()"><span style="color:#f5fffa"> Aceitar </span></button>
       </div>
 
       </div>

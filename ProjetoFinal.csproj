@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\img\DocCrow_logo.png" />
+    <Content Include="assets\img\logo5.png" />
     <Content Include="css\Contacts.css" />
     <Content Include="App_Data\ProjetoFinalDB.mdf" />
     <Content Include="App_Data\ProjetoFinalDB_log.ldf">
@@ -85,6 +87,7 @@
     <Content Include="cadastro.aspx" />
     <Content Include="Contacts.aspx" />
     <Content Include="css\About.css" />
+    <Content Include="css\global - Cópia .css" />
     <Content Include="css\global.css" />
     <Content Include="css\logincad.css" />
     <Content Include="gerenciar.aspx" />

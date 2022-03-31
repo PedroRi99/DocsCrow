@@ -97,8 +97,8 @@ main {
 
 /* Cabeçalho <header> */
 
-.wrap>header {
-    background: rgba(0, 0, 0, .8);
+.wrap > header {
+    background:#ADD8E6;
 }
 
 div.header {
@@ -158,7 +158,7 @@ div.header h1 {
 /* Menu principal <nav> */
 
 div.nav {
-    background: #044768;
+    background:rgba(0, 0, 0, .8);
     position: absolute;
     right: 0;
     z-index: 1000;
@@ -281,14 +281,14 @@ div.footer-top a:hover {
 div.footer-bottom {
     background: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: .75rem;
     padding-bottom: 1rem;
 }
 
 div.footer-bottom div {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
 }
 
 div.footer-bottom a {
