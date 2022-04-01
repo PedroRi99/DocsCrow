@@ -19,7 +19,7 @@
         </script>
         
         <body>
-            <article>
+            <div class="caixa">
                 <form id="form1" runat="server">
                 <h1>Faça Contato</h1>
                     <p>Preencha os campos abaixo para entrar em contato com a equipe do aplicativo.</p>
@@ -40,8 +40,23 @@
                     </p>
                    
                 </form>
-            </article>
-            
+                </div>
+            <h2>Perguntas frequentes:</h2>
+            <hr />
+            <h3>Como editar documentos?</h3>
+            <p>Para que ocorra a edição de documentos será preciso uma conta com permissão de administrador e assim será possível modificar qualquer informação contida no arquivo.</p>
+            <hr />
+            <h2>Quais documentos são compatíveis:</h2>
+            <ul>
+                <li>Documentos de texto: PDF, xlsx; .docx;</li>
+                <li>Imagens: JPEG, JPG, PNG.</li>
+            </ul>
+            <hr />
+            <h3>Como apagar e baixar os documentos?</h3>
+            <p>Na aba gerenciar, após fazer o upload de um arquivo, você poderá baixar o arquivo no botão “Download” e apagar o documento na opção “Deletar”;</p>
+            <hr />
+            <h3>Como enviar documentos?</h3>
+            <p>Será possível enviar todos os documentos para o banco de dados, para ficar salvo e seguro, após ter selecionado o documento que deseja, clique no botão enviar.</p>
         </body>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
     </html>

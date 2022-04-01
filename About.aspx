@@ -9,7 +9,7 @@
     
     
  <article>
-     <h1>Sobre DocsCrow</h1>
+     <h1>Sobre DocCrow</h1>
  <h2>Nossa equipe</h2>
      <p>Fundada em 2022 pelos alunos desenvolvedores Gabriel Carvalho, Gabriel Amorim, Julie Claro, Richardson Linhares, Pedro Ricardo e Pedro Bastos</p>
      <h2>Nosso aplicativo</h2>
@@ -33,6 +33,8 @@ Com muita dedicação, integridade e trabalho duro, esperamos que nosso objetivo
         <p><i class="fab fa-linkedin"></i><a href="https://br.linkedin.com/in/gabriel-amorim-08246117a?trk=people-guest_people_search-card" target="_blank"</a>Gabriel Dória</p>
         <p><i class="fab fa-github-square"></i> <a href="https://github.com/JulieClaro" target="_blank"</a>Julie Claro</p>
         <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/richardson-linhares" target="_blank"</a> Richardson Linhares</p>
+        <p><a href="" target="_blank"</a> Pedro Lucas </p>
+        <p><a href="" target="_blank"</a> Gabriel Carvalho </p>
     </ul>
         </aside>
 

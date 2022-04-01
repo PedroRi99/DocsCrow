@@ -4,8 +4,24 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <style>
+        input[type=file] {
+            display: none;
+        }
+
+            LABEL{
+                     background:Blue;
+                     border-radius:30vh;
+                 }
+            #btnUpload{
+                background:green;
+
+            }
+        
+    </style>
 
           <form id="Form1" method="post" runat="server" enctype="multipart/form-data" action="UploadDeArquivo.aspx">
+              <label for="ContentPlaceHolder1_oFile">Escolher Arquivo</label>
          Arquivo Enviado para o servidor: <input id="oFile" type="file" runat="server" name="oFile">
          <asp:button id="btnUpload" type="submit" text="Upload" runat="server"></asp:button>
          <asp:Panel ID="frmConfirmation" Visible="False" Runat="server">

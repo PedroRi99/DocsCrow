@@ -19,6 +19,7 @@ article h1 {
     color: transparent;
     animation: text 10s ease alternate infinite;
     border-radius: 15px;
+    
 }
 
 @keyframes text {

@@ -98,7 +98,7 @@ main {
 /* Cabeçalho <header> */
 
 .wrap > header {
-    background:#ADD8E6;
+    background: #778da9;
 }
 
 div.header {
@@ -158,7 +158,7 @@ div.header h1 {
 /* Menu principal <nav> */
 
 div.nav {
-    background:rgba(0, 0, 0, .8);
+    background:#1b263b;
     position: absolute;
     right: 0;
     z-index: 1000;
@@ -209,7 +209,7 @@ div.nav a i {
 
 @media (min-width: 768px) {
 
-    .wrap>nav {
+    .wrap > nav {
         background: #04476891;
         display: block;
         padding: 1px;
@@ -254,11 +254,11 @@ div.main {
 /* Rodapé <footer> */
 
 .wrap>footer {
-    background: rgba(0, 0, 0, .7);
+    background:black;
 }
 
 div.footer-top {
-    background: black;
+    background: #1b263b;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -279,7 +279,7 @@ div.footer-top a:hover {
 }
 
 div.footer-bottom {
-    background: black;
+    background: #1b263b;
     display: flex;
     justify-content: center;
     padding-top: .75rem;
@@ -326,7 +326,7 @@ div.footer-bottom a i {
 .main>aside {
     padding: 0 1rem;
     border-top: 3px dotted grey;
-    background: rgb(226, 252, 255);
+    background: #778da9;
 }
 
 .main>article>h2:first-child {

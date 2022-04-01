@@ -39,7 +39,7 @@ a {
 /* content que contem os formulários */
 .content {
     width: 100%;
-    max-width: 500px;
+    /*max-width: 500px;*/
     margin: 0px auto;
     position: relative;
 }
@@ -130,10 +130,10 @@ input {
 
 /*marcando os links para mudar de um formulário para outro */
 .link {
-    position: absolute;
+    /*position: absolute;*/
     background: #e1eaeb;
     color: #7f7c7c;
-    left: 0px;
+    /*left: 0px;*/
     padding: 20px 10px;
     font-size: 16px;
     text-align: center;
@@ -165,11 +165,12 @@ input {
 /* estilos para para ambos os formulários */
 #cadastro,
 #login {
-    position: absolute;
-    top: 0px;
+    /*position: absolute;*/
+    /*top: 0px;*/
     width: 88%;
-    padding: 18px 6% 60px 6%;
-    margin: 0 0 35px 0;
+    padding: 1rem;
+    /*margin: 0 0 35px 0;*/
+    margin: auto;
     background: rgb(247, 247, 247);
     border: 1px solid rgba(147, 184, 189,0.8);
     -webkit-box-shadow: 5px;

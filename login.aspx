@@ -16,10 +16,11 @@
     width: 100%;
     background-color:#4682B4;
     display: flex;
-    height:60px;
-    font-size:20px;
+    /*height:60px;*/
+    /*font-size:20px;*/
     align-items:center;
     border-radius: 5px;
+    padding: .5rem;
 }
 
     #aviso-cookie .text {
@@ -52,12 +53,11 @@
     transition:all 0.6s ease-in-out 0s;
     box-shadow:inset 0 0 20px;
 }
-.Button4:hover{
-    color:#00ffcb;
-    
-    box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+   #Button4:hover{
+    color:#00ffcb;    
+    box-shadow: 0 0 60px #0000ff;
     cursor: grab;
-    border: 2px solid #00ffcb;
+    border: 2px solid #274c77;
 }
         </style>
                    <script>
@@ -114,12 +114,12 @@
             <a href="cadastro.aspx">Cadastre-se</a>
           </p>
         </form>
-           <div id="aviso-cookie">
+          <div id="aviso-cookie">
       <div class="text">
-         <p>Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. Para acessar o nosso site, você precisa acessar a política de cookies. </p>
+         <p>Clicando em "Aceito todos os cookies", você concorda com o armazenamento de cookies no seu dispositivo para melhorar a experiência e navegação no site </p>
       </div>
       <div class="button">
-          <button id="Button4" onclick="button_onclick_Aceitar()"><span style="color:#f5fffa"> Aceitar </span></button>
+          <button id="Button4" onclick="button_onclick_Aceitar()"><span style="color:#274c77"> Aceitar </span></button>
       </div>
 
       </div>

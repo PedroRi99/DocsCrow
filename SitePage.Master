@@ -65,7 +65,7 @@
                 </a>  
                 
                 <a href="#" onclick="logout()" title="Sair">
-                    <i class="fas fa-exclamation fa-fw"></i><span>Sair</span>
+                    <i class="fas fa-sign-out-alt"></i><span>Sair</span>
                 </a> 
                 
                         <script>
