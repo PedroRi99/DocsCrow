@@ -30,8 +30,8 @@
 
         <header>
             <div class="header">
-                <a href="index.aspx" title="Página incial"><img id="logo" src="assets/img/logo1.png" alt="DocCrow"></a>
-                <h1 id="siteName">DocCrow<!-- <asp:Label ID="ltrCookie" runat="server" ></asp:Label> --></h1>
+                <a href="index.aspx" title="Página incial"><img id="logo" src="assets/img/DocCrow_logo.png" alt="DocCrow"></a>
+                <!--<h1 id="siteName">DocCrow<!-- <asp:Label ID="ltrCookie" runat="server" ></asp:Label> --></h1>
                 <a href="#menu" id="menuToggle" title="Mostra menu" onclick="menuToggle(this)"><i class="fas fa-home fa-fw"></i></a>
             </div>
         </header>
@@ -57,13 +57,9 @@
                 </a>
 
                 <a href="log.aspx" title="Seu perfil">
-                    <i class="fas fa-list fa-fw"></i><span>Logs</span>
+                    <i class="fas fa-list fa-fw"></i><span>Histórico</span>
                 </a>  
 
-                <a href="#" title="Seu perfil">
-                    <i class="fas fa-user fa-fw"></i><span>Perfil</span>
-                </a>  
-                
                 <a href="#" onclick="logout()" title="Sair">
                     <i class="fas fa-sign-out-alt"></i><span>Sair</span>
                 </a> 

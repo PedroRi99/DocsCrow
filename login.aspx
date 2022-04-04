@@ -108,11 +108,11 @@
             <asp:Button ID="btnlogar" runat="server" Text="Logar" OnClick="btnlogar_Click" /> 
           </p>
            
-          <p class="link">
-             
-            Ainda não tem conta?
-            <a href="cadastro.aspx">Cadastre-se</a>
-          </p>
+        
+             <div id="conta">
+                <p class="link">Ainda não tem conta?</p>
+                <a  href="cadastro.aspx"><p class="link">Cadastre-se</p></a>
+            </div>
         </form>
           <div id="aviso-cookie">
       <div class="text">

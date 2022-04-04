@@ -110,12 +110,12 @@
            
           <p class="link">  
             Já tem conta?
-            <a href="login.aspx"> Ir para Login </a>
+            <a href="login.aspx"> <p class="link">Ir para login </p></a>
           </p>
         </form>
           <div id="aviso-cookie">
       <div class="text">
-         <p>Clicando em "Aceito todos os cookies", você concorda com o armazenamento de cookies no seu dispositivo para melhorar a experiência e navegação no site.</p>
+         <p>Clicando em "Aceitar", você concorda com o armazenamento de cookies no seu dispositivo para melhorar a experiência e navegação no site.</p>
       </div>
       <div class="button">
           <button id="Button4" onclick="button_onclick_Aceitar()">Aceitar </button>

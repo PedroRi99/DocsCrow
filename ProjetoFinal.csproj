@@ -87,7 +87,6 @@
     <Content Include="cadastro.aspx" />
     <Content Include="Contacts.aspx" />
     <Content Include="css\About.css" />
-    <Content Include="css\global - Cópia .css" />
     <Content Include="css\global.css" />
     <Content Include="css\logincad.css" />
     <Content Include="gerenciar.aspx" />

@@ -30,7 +30,7 @@
                          Seu Email: <asp:TextBox ID="FormEmail" runat="server" TextMode="Email"></asp:TextBox>
                     </p>
                     <p>
-                        Assunto:&nbsp;&nbsp; <asp:TextBox ID="FormAssunto" runat="server" BorderColor="Black"></asp:TextBox>
+                        Assunto:&nbsp;&nbsp; <asp:TextBox ID="FormAssunto" runat="server" ></asp:TextBox>
                     </p>
                     <p>
                         Mensagem: <asp:TextBox ID="FormMsg" runat="server"></asp:TextBox>
